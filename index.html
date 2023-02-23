@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <title>Home</title>
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/todo.css">
 </head>
 <body>
     <header>
         <section>
-            <h1>To do</h1>
-            <img src="photo/logo.png" alt="logo" width="300px" height="300px">
+            <h1>To <br> do</h1>
+            <div><img src="photo/logo.png" alt="logo"></div>
         </section>
         <nav>
             <ul>
@@ -17,26 +19,34 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="tasks">
             <h2>Table Tasks</h2>
-            <table border="1">
+            <table>
                 <tr>
                     <th>Task</th>
                     <th>Status</th>
                 </tr>
                 <tr>
-                    <td>campaign objectives</td>
-                    <td>Done</td>
+                    <td>Learn js</td>
+                    <td><div class="done"></div></td>
                 </tr>
                 <tr>
-                    <td>Design</td>
-                    <td>In process</td>
+                    <td>Create HTML Page</td>
+                    <td><div class="inProcess"></td>
+                </tr>
+                <tr>
+                    <td>Walk the dog</td>
+                    <td><div class="inProcess"></td>
+                </tr>
+                <tr>
+                    <td>Watch The Match</td>
+                    <td><div class="inProcess"></td>
                 </tr>
             </table>
         </section>
     </main>
     <footer>
-        <h3>&copy; Copy right Aseel Bdoor</h3>
+        <div><p>&copy; Copy right Aseel Bdoor</p></div>
     </footer>
 </body>
 </html>
